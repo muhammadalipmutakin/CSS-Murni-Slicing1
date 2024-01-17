@@ -1,0 +1,127 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 90%;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  padding: 5px 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  color: #3a1111;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+ul button {
+  padding: 8px 16px;
+  background-color: #3a1111;
+  border-radius: 16px;
+  color: white;
+}
+
+ul button:hover {
+  background-color: white;
+  color: #3a1111;
+}
+
+/* main */
+.main {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.kiri {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.kiri h1 {
+  width: 521px;
+  font-weight: bold;
+  font-size: 48px;
+  color: #3a1111;
+}
+
+.kiri p {
+  width: 449px;
+  font-size: 16px;
+  color: #6b6262;
+}
+
+.kiri input {
+  padding: 20px;
+  border-radius: 100px;
+  border: 1px solid #3a1111;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 14px;
+  margin-top: 21px;
+  align-items: center;
+}
+
+.kiri .send {
+  padding: 20px 108px;
+  background-color: #3a1111;
+  border-radius: 16px;
+  color: white;
+  border-radius: 100px;
+}
+
+.kiri .send:hover {
+  color: #3a1111;
+  background-color: white;
+}
+
+.kiri .pick {
+  padding: 20px 100px;
+  border-radius: 16px;
+  border-radius: 100px;
+}
+
+.kiri .pick:hover {
+  background-color: #3a1111;
+  color: white;
+}
+
+.kanan {
+  width: 50%;
+}
+
+.kanan img {
+  width: 100%;
+  max-height: 100vh;
+}
